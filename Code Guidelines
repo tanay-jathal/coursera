@@ -1,0 +1,30 @@
+# Coding Guidelines for [Project Name]
+
+These guidelines provide a standard style for contributing code to the project. Following these will make it easier for others to understand and maintain the code.
+
+---
+
+## General Guidelines
+- **Code Readability**: Code should be easy to read, with descriptive variable and function names.
+- **Comments**: Write clear and concise comments where necessary, especially for complex logic.
+- **Version Control**: Each commit should be focused on a single issue or feature. Use descriptive commit messages.
+- **Testing**: Ensure that your code is covered by unit or integration tests where applicable.
+- **Keep It Simple**: Avoid over-engineering solutions. Focus on clarity and simplicity.
+- **DRY Principle**: Don’t Repeat Yourself. Avoid duplicating code by reusing functions or modules where possible.
+
+---
+
+## 1. Python Coding Guidelines
+
+### 1.1 Code Style
+- Follow **PEP 8** for Python style:
+  - Use 4 spaces per indentation level (no tabs).
+  - Keep line length under 79 characters.
+  - Leave two blank lines before top-level function and class definitions.
+- Example:
+  ```python
+  def example_function(param1, param2):
+      """This is an example function."""
+      if param1 > param2:
+          return param1
+      return param2
